@@ -50,7 +50,7 @@ def generate_html(w, base64s, data, is_landscape):
                                 Status: 
                                 {data.status}
                                 <br/>
-                                Document signed digitally using Approval Management System (AnyFlow) on {data.information}
+                                Document signed digitally using Stamping Engine By XYZ 
                             </td>
                         </tr>
                     </table>
@@ -97,7 +97,7 @@ def generate_html(w, base64s, data, is_landscape):
                                 Status: 
                                 {data.status}
                                 <br/>
-                                Document signed digitally using Approval Management System (AnyFlow) on {data.information}
+                                    Document signed digitally using Stamping Engine By XYZ 
                             </td>
                         </tr>
                     </table>

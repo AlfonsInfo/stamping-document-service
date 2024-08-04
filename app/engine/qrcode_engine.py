@@ -1,3 +1,7 @@
+import qrcode
+from io import BytesIO
+import base64
+
 def generate_base64_qr(data):
     try:
         qr = qrcode.main.QRCode(

@@ -43,7 +43,7 @@ def sign_docs():
             "status": 200,
             "message": "Document signed successfully",
             "error": None,
-            "data": result  # Assuming result contains the data you want to send back
+            "data": result   # Base 64 encoded signed document
         }
         return jsonify(success_response), 200
     except Exception as e:
